@@ -1,343 +1,342 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DMG Locaties Tabel</title>
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#043449">
-  <link rel="icon" href="icons/favicon.png" type="image/png">
-  <link rel="apple-touch-icon" href="icons/icon-512.png">
-  <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DMG Locaties Tabel</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#043449">
+	<link rel="icon" href="icons/favicon.png" type="image/png">
+	<link rel="apple-touch-icon" href="icons/icon-512.png">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<h1 class="py-4">DMG Overzicht Vestigingen</h1>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="py-4">DMG Overzicht Vestigingen</h1>
+				</div>
 			</div>
 		</div>
+	</header>
+	<div class="container pt-3">
+    	<div class="row mb-3">
+    		<div class="col-12">
+    	    	<input type="text" id="zoekveld" class="form-control form-control-lg" placeholder="Zoek op code, formule of plaatsnaam...">
+    	  	</div>
+    	</div>
+    	<div class="table-responsive">
+    	<table class="table">
+        	<thead>
+        		<tr>
+        			<th>Code</th>
+        			<th>Formule</th>
+        			<th>Plaatsnaam</th>
+        		</tr>
+        	</thead>
+        	<tbody>
+            	<tr><td>0001</td><td>Brugman</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>0002</td><td>Brugman</td><td>Capelle ad IJssel</td></tr>
+            	<tr><td>0004</td><td>Brugman</td><td>Hoofddorp</td></tr>
+            	<tr><td>0005</td><td>Brugman</td><td>Nijmegen</td></tr>
+            	<tr><td>0006</td><td>Brugman</td><td>Goes</td></tr>
+            	<tr><td>0008</td><td>Brugman</td><td>Den Haag</td></tr>
+            	<tr><td>0009</td><td>Brugman</td><td>Alkmaar</td></tr>
+            	<tr><td>0010</td><td>Brugman</td><td>Den Bosch</td></tr>
+            	<tr><td>0011</td><td>Brugman</td><td>Zutphen</td></tr>
+            	<tr><td>0014</td><td>Brugman</td><td>Amersfoort</td></tr>
+            	<tr><td>0015</td><td>Brugman</td><td>Beurs Waalwijk</td></tr>
+            	<tr><td>0016</td><td>Brugman</td><td>Groningen</td></tr>
+            	<tr><td>0018</td><td>Brugman</td><td>Zaandam</td></tr>
+            	<tr><td>0020</td><td>Brugman</td><td>Utrecht</td></tr>
+            	<tr><td>0021</td><td>Brugman</td><td>Son</td></tr>
+            	<tr><td>0022</td><td>Brugman</td><td>Arnhem</td></tr>
+            	<tr><td>0023</td><td>Brugman</td><td>Roosendaal</td></tr>
+            	<tr><td>0025</td><td>Brugman</td><td>Zoeterwoude</td></tr>
+            	<tr><td>0026</td><td>Brugman</td><td>Hulst</td></tr>
+            	<tr><td>0027</td><td>Brugman</td><td>Heerlen</td></tr>
+            	<tr><td>0028</td><td>Brugman</td><td>Leeuwarden</td></tr>
+            	<tr><td>0029</td><td>Brugman</td><td>Hengelo OV</td></tr>
+            	<tr><td>0030</td><td>Brugman</td><td>Breda</td></tr>
+            	<tr><td>0031</td><td>Brugman</td><td>Almere</td></tr>
+            	<tr><td>0032</td><td>Brugman</td><td>Roermond</td></tr>
+            	<tr><td>0033</td><td>Brugman</td><td>Zwolle</td></tr>
+            	<tr><td>0034</td><td>Brugman</td><td>Assen</td></tr>
+            	<tr><td>0035</td><td>Brugman</td><td>Tilburg</td></tr>
+            	<tr><td>0036</td><td>Brugman</td><td>Arena Amsterdam</td></tr>
+            	<tr><td>0037</td><td>Brugman</td><td>Barendrecht</td></tr>
+            	<tr><td>0038</td><td>Brugman</td><td>Wateringen</td></tr>
+            	<tr><td>0039</td><td>ONBEKEND</td><td>Waalwijk</td></tr>
+            	<tr><td>0040</td><td>Brugman</td><td>Projecten Waalwijk</td></tr>
+            	<tr><td>0049</td><td>Brugman</td><td>Purmerend</td></tr>
+            	<tr><td>0051</td><td>Brugman</td><td>Rotterdam</td></tr>
+            	<tr><td>0057</td><td>Brugman</td><td>Curacao</td></tr>
+            	<tr><td>0069</td><td>Brugman</td><td>Hilversum</td></tr>
+            	<tr><td>0084</td><td>Brugman</td><td>Ede</td></tr>
+            	<tr><td>0085</td><td>Brugman</td><td>Emmen</td></tr>
+            	<tr><td>0091</td><td>Brugman</td><td>Venlo</td></tr>
+            	<tr><td>0095</td><td>Brugman</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>0096</td><td>Combi Orders BM K</td><td>Waalwijk</td></tr>
+            	<tr><td>0099</td><td>Brugman</td><td>Bonaire</td></tr>
+            	<tr><td>0111</td><td>Mandemakers</td><td>Zutphen</td></tr>
+            	<tr><td>0114</td><td>Mandemakers</td><td>Amersfoort</td></tr>
+            	<tr><td>0116</td><td>Mandemakers</td><td>Groningen</td></tr>
+            	<tr><td>0133</td><td>Mandemakers</td><td></td></tr>
+            	<tr><td>0136</td><td>Mandemakers</td><td>Amsterdam</td></tr>
+            	<tr><td>0137</td><td>Mandemakers</td><td>Barendrecht</td></tr>
+            	<tr><td>0138</td><td>Mandemakers</td><td>Wateringen</td></tr>
+            	<tr><td>0140</td><td>Mandemakers</td><td>Projecten Waalwijk</td></tr>
+            	<tr><td>0141</td><td>Mandemakers</td><td>Beuningen</td></tr>
+            	<tr><td>0152</td><td>Mandemakers</td><td>Woerden</td></tr>
+            	<tr><td>0195</td><td>Mandemakers</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>0201</td><td>Keuken Kampioen</td><td>Kaatsheuvel</td></tr>
+            	<tr><td>0202</td><td>Keuken Kampioen</td><td>Alexandrium Rotterdam</td></tr>
+            	<tr><td>0205</td><td>Keuken Kampioen</td><td>Nijmegen</td></tr>
+            	<tr><td>0206</td><td>Keuken Kampioen</td><td>Goes</td></tr>
+            	<tr><td>0207</td><td>Keuken Kampioen</td><td>Dordrecht</td></tr>
+            	<tr><td>0208</td><td>Keuken Kampioen</td><td>Den Haag</td></tr>
+            	<tr><td>0210</td><td>Keuken Kampioen</td><td>Den Bosch</td></tr>
+            	<tr><td>0214</td><td>Keuken Kampioen</td><td>Amersfoort</td></tr>
+            	<tr><td>0215</td><td>Keuken Kampioen</td><td>Westpoort Amsterdam</td></tr>
+            	<tr><td>0216</td><td>Keuken Kampioen</td><td>Groningen</td></tr>
+            	<tr><td>0217</td><td>Keuken Kampioen</td><td>Spijkenisse</td></tr>
+            	<tr><td>0218</td><td>Keuken Kampioen</td><td>Zaandam</td></tr>
+            	<tr><td>0219</td><td>Beursfiliaal KK1</td><td>Waalwijk</td></tr>
+            	<tr><td>0220</td><td>Keuken Kampioen</td><td>Utrecht</td></tr>
+            	<tr><td>0221</td><td>Keuken Kampioen</td><td>Son en Breugel</td></tr>
+            	<tr><td>0223</td><td>Keuken Kampioen</td><td>Roosendaal</td></tr>
+            	<tr><td>0224</td><td>Keuken Kampioen</td><td>Heerhugowaard</td></tr>
+            	<tr><td>0226</td><td>Keuken Kampioen</td><td>Hulst</td></tr>
+            	<tr><td>0227</td><td>Keuken Kampioen</td><td>Heerlen</td></tr>
+            	<tr><td>0228</td><td>Keuken Kampioen</td><td>Leeuwarden</td></tr>
+            	<tr><td>0230</td><td>Keuken Kampioen</td><td>Breda</td></tr>
+            	<tr><td>0231</td><td>Keuken Kampioen</td><td>Almere</td></tr>
+            	<tr><td>0233</td><td>Keuken Kampioen</td><td>Zwolle</td></tr>
+            	<tr><td>0236</td><td>Keuken Kampioen</td><td>Arena Amsterdam Zuidoost</td></tr>
+            	<tr><td>0239</td><td>Keuken Kampioen</td><td>Reeuwijk</td></tr>
+            	<tr><td>0240</td><td>Keuken Kampioen</td><td>Projecten Waalwijk</td></tr>
+            	<tr><td>0242</td><td>Keuken Kampioen</td><td>Hoorn Zwaag</td></tr>
+            	<tr><td>0244</td><td>Keuken Kampioen</td><td>Amstelveen</td></tr>
+            	<tr><td>0247</td><td>Keuken Kampioen</td><td>Bergen op Zoom</td></tr>
+            	<tr><td>0248</td><td>Keuken Kampioen</td><td>Mijdrecht</td></tr>
+            	<tr><td>0249</td><td>Keuken Kampioen</td><td>Purmerend</td></tr>
+            	<tr><td>0250</td><td>Keuken Kampioen</td><td>Delft</td></tr>
+            	<tr><td>0251</td><td>Keuken Kampioen</td><td>Rotterdam</td></tr>
+            	<tr><td>0252</td><td>Keuken Kampioen</td><td>Woerden</td></tr>
+            	<tr><td>0255</td><td>Keuken Kampioen</td><td>Drachten</td></tr>
+            	<tr><td>0258</td><td>Keuken Kampioen</td><td>Beverwijk</td></tr>
+            	<tr><td>0264</td><td>Keuken Kampioen</td><td>Houten</td></tr>
+            	<tr><td>0267</td><td>Keuken Kampioen</td><td>Helmond</td></tr>
+            	<tr><td>0273</td><td>Keuken Kampioen</td><td>Lelystad</td></tr>
+            	<tr><td>0275</td><td>Keuken Kampioen</td><td>Weert</td></tr>
+            	<tr><td>0276</td><td>Keuken Kampioen</td><td>Cruquius</td></tr>
+            	<tr><td>0280</td><td>Keuken Kampioen</td><td>Tiel</td></tr>
+            	<tr><td>0282</td><td>Keuken Kampioen</td><td>Middelburg</td></tr>
+            	<tr><td>0284</td><td>Keuken Kampioen</td><td>Ede</td></tr>
+            	<tr><td>0285</td><td>Keuken Kampioen</td><td>Emmen</td></tr>
+            	<tr><td>0286</td><td>Keuken Kampioen</td><td>Alphen a/d Rijn</td></tr>
+            	<tr><td>0290</td><td>Keuken Kampioen</td><td>Amsterdam ZO</td></tr>
+            	<tr><td>0292</td><td>Apparatenkampioen</td><td>Waalwijk</td></tr>
+            	<tr><td>0293</td><td>Keuken Kampioen</td><td>Sneek</td></tr>
+            	<tr><td>0294</td><td>Keuken Kampioen</td><td>Duiven</td></tr>
+            	<tr><td>0295</td><td>Keuken Kampioen</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>0296</td><td>Keuken Kampioen</td><td>Enschede</td></tr>
+            	<tr><td>0297</td><td>Keuken Kampioen</td><td>Almelo</td></tr>
+            	<tr><td>0301</td><td>Keuken Concurrent</td><td>Kaatsheuvel</td></tr>
+            	<tr><td>0308</td><td>Keuken Concurrent</td><td>Den Haag 's-Gravenhage</td></tr>
+            	<tr><td>0309</td><td>Keuken Concurrent</td><td>Alkmaar</td></tr>
+            	<tr><td>0310</td><td>Keuken Concurrent</td><td>Den Bosch 's-Hertogenbosch</td></tr>
+            	<tr><td>0313</td><td>Keuken Concurrent</td><td>Veenendaal</td></tr>
+            	<tr><td>0314</td><td>Keuken Concurrent</td><td>Amersfoort</td></tr>
+            	<tr><td>0315</td><td>Keuken Concurrent</td><td>Westpoort Amsterdam</td></tr>
+            	<tr><td>0316</td><td>Keuken Concurrent</td><td>Groningen</td></tr>
+            	<tr><td>0317</td><td>Keuken Concurrent</td><td>Spijkenisse</td></tr>
+            	<tr><td>0318</td><td>Keuken Concurrent</td><td>Zaandam</td></tr>
+            	<tr><td>0320</td><td>Keuken Concurrent</td><td>Utrecht</td></tr>
+            	<tr><td>0321</td><td>Keuken Concurrent</td><td>Son en Breugel</td></tr>
+            	<tr><td>0322</td><td>Keuken Concurrent</td><td>Arnhem</td></tr>
+            	<tr><td>0323</td><td>Keuken Concurrent</td><td>Roosendaal</td></tr>
+            	<tr><td>0326</td><td>Keuken Concurrent</td><td>Hulst</td></tr>
+            	<tr><td>0327</td><td>Keuken Concurrent</td><td>Heerlen</td></tr>
+            	<tr><td>0328</td><td>Keuken Concurrent</td><td>Leeuwarden</td></tr>
+            	<tr><td>0329</td><td>Keuken Concurrent</td><td>Hengelo OV</td></tr>
+            	<tr><td>0330</td><td>Keuken Concurrent</td><td>Breda</td></tr>
+            	<tr><td>0331</td><td>Keuken Concurrent</td><td>Almere</td></tr>
+            	<tr><td>0333</td><td>Keuken Concurrent</td><td>Zwolle</td></tr>
+            	<tr><td>0336</td><td>Keuken Concurrent</td><td>Arena Amsterdam Zuidoost</td></tr>
+            	<tr><td>0337</td><td>Keuken Concurrent</td><td>Barendrecht</td></tr>
+            	<tr><td>0338</td><td>Keuken Concurrent</td><td>Wateringen</td></tr>
+            	<tr><td>0340</td><td>Keuken Concurrent</td><td>Projecten Waalwijk</td></tr>
+            	<tr><td>0341</td><td>Keuken Concurrent</td><td>Beuningen</td></tr>
+            	<tr><td>0342</td><td>Keuken Concurrent</td><td>Hoorn Zwaag</td></tr>
+            	<tr><td>0344</td><td>Keuken Concurrent</td><td>Amstelveen</td></tr>
+            	<tr><td>0349</td><td>Keuken Concurrent</td><td>Purmerend</td></tr>
+            	<tr><td>0351</td><td>Keuken Concurrent</td><td>Rotterdam</td></tr>
+            	<tr><td>0352</td><td>Keuken Concurrent</td><td>Woerden</td></tr>
+            	<tr><td>0358</td><td>Keuken Concurrent</td><td>Beverwijk</td></tr>
+            	<tr><td>0360</td><td>Keuken Concurrent</td><td>Deventer</td></tr>
+            	<tr><td>0361</td><td>Keuken Concurrent</td><td>Heerenveen</td></tr>
+            	<tr><td>0363</td><td>Keuken Concurrent</td><td>Oss</td></tr>
+            	<tr><td>0364</td><td>Keuken Concurrent</td><td>Houten</td></tr>
+            	<tr><td>0365</td><td>Keuken Concurrent</td><td>Doetinchem</td></tr>
+            	<tr><td>0367</td><td>Keuken Concurrent</td><td>Helmond</td></tr>
+            	<tr><td>0373</td><td>Keuken Concurrent</td><td>Lelystad</td></tr>
+            	<tr><td>0376</td><td>Keuken Concurrent</td><td>Cruquius</td></tr>
+            	<tr><td>0377</td><td>Keuken Concurrent</td><td>Zoetermeer</td></tr>
+            	<tr><td>0381</td><td>Keuken Concurrent</td><td>Leiderdorp</td></tr>
+            	<tr><td>0383</td><td>Keuken Concurrent</td><td>Hoogeveen</td></tr>
+            	<tr><td>0385</td><td>Keuken Concurrent</td><td>Emmen</td></tr>
+            	<tr><td>0387</td><td>Keuken Concurrent</td><td>Sliedrecht</td></tr>
+            	<tr><td>0388</td><td>Keuken Concurrent</td><td>Gouda</td></tr>
+            	<tr><td>0389</td><td>Keuken Concurrent</td><td>Apeldoorn</td></tr>
+            	<tr><td>0391</td><td>Keuken Concurrent</td><td>Venlo</td></tr>
+            	<tr><td>0392</td><td>Keuken Concurrent</td><td>Webwinkel Waalwijk</td></tr>
+            	<tr><td>0394</td><td>Keuken Concurrent</td><td>Duiven</td></tr>
+            	<tr><td>0395</td><td>Keuken Concurrent</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>0398</td><td>Keuken</td><td></td></tr>
+            	<tr><td>0404</td><td>Keukenmaxx</td><td>Hoofddorp</td></tr>
+            	<tr><td>0437</td><td>Keukenmaxx</td><td>Barendrecht</td></tr>
+            	<tr><td>0440</td><td>Keukenmaxx</td><td>Projecten Waalwijk</td></tr>
+            	<tr><td>0443</td><td>Keukenmaxx</td><td>Etten-Leur</td></tr>
+            	<tr><td>0495</td><td>Keukenmaxx</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>0596</td><td>Combi Orders PK K</td><td>Waalwijk</td></tr>
+            	<tr><td>0603</td><td>Wooning</td><td>Numansdorp</td></tr>
+            	<tr><td>1301</td><td>Keukendump</td><td>Kaatsheuvel Vr</td></tr>
+            	<tr><td>1335</td><td>Keukendump</td><td>Tilburg Vrrd</td></tr>
+            	<tr><td>1416</td><td>Nieuwenhuis</td><td>Groningen</td></tr>
+            	<tr><td>1434</td><td>Nieuwenhuis</td><td>Assen</td></tr>
+            	<tr><td>1460</td><td>Nieuwenhuis</td><td>Deventer</td></tr>
+            	<tr><td>1461</td><td>Nieuwenhuis</td><td>Heerenveen</td></tr>
+            	<tr><td>1468</td><td>Nieuwenhuis</td><td>Meppel</td></tr>
+            	<tr><td>1495</td><td>Nieuwenhuis</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>1498</td><td>Keukendump Nieuwenhuis</td><td>Assen</td></tr>
+            	<tr><td>2330</td><td>CVT</td><td>Breda</td></tr>
+            	<tr><td>2335</td><td>CVT</td><td>Tilburg</td></tr>
+            	<tr><td>2340</td><td>CVT</td><td>Projecten</td></tr>
+            	<tr><td>2395</td><td>CVT</td><td>Hoofdkantoor</td></tr>
+            	<tr><td>3002</td><td>Küchen Direct</td><td>Alexandrium</td></tr>
+            	<tr><td>3008</td><td>Küchen Direct</td><td>Den Haag</td></tr>
+            	<tr><td>3020</td><td>Küchen Direct</td><td>Utrecht</td></tr>
+            	<tr><td>3021</td><td>Küchen Direct</td><td>Son</td></tr>
+            	<tr><td>3027</td><td>Küchen Direct</td><td>Heerlen</td></tr>
+            	<tr><td>3030</td><td>Küchen Direct</td><td>Breda</td></tr>
+            	<tr><td>3040</td><td>Küchen Direct</td><td>Projecten</td></tr>
+            	<tr><td>3095</td><td>Küchen Direct</td><td>Hoofdkantoo</td></tr>
+            	<tr><td>3101</td><td>Keukenontwerpers</td><td>Geel</td></tr>
+            	<tr><td>3102</td><td>Keukenontwerpers</td><td>Hasselt</td></tr>
+            	<tr><td>3103</td><td>Keukenontwerpers</td><td>Wilrijk</td></tr>
+            	<tr><td>3105</td><td>Keukenontwerpers</td><td>Waterloo</td></tr>
+            	<tr><td>3107</td><td>Keukenontwerpers</td><td>Kortenbe</td></tr>
+            	<tr><td>3108</td><td>Keukenontwerpers</td><td>Schoten</td></tr>
+            	<tr><td>3140</td><td>Keukenontwerpers</td><td>Projecte Geel</td></tr>
+            	<tr><td>3145</td><td>Keukenontwerpers</td><td>Aanbeste Geel</td></tr>
+            	<tr><td>4302</td><td>TKI</td><td>Alexandrium</td></tr>
+            	<tr><td>4495</td><td>Piet Boon Hoofdkantoor</td><td>Waalwijk</td></tr>
+            	<tr><td>4502</td><td>Hello Kitchen</td><td>Alexandrium</td></tr>
+            	<tr><td>4508</td><td>Hello Kitchen</td><td>Den Haag</td></tr>
+            	<tr><td>4520</td><td>Hello Kitchen</td><td>Utrecht</td></tr>
+            	<tr><td>4521</td><td>Hello Kitchen</td><td>Son</td></tr>
+            	<tr><td>4527</td><td>Hello Kitchen</td><td>Heerlen</td></tr>
+            	<tr><td>4530</td><td>Hello Kitchen</td><td>Breda</td></tr>
+            	<tr><td>4536</td><td>Hello Kitchen</td><td>Adam Arena</td></tr>
+            	<tr><td>4594</td><td>Hello Kitchen</td><td>Duiven</td></tr>
+            	<tr><td>4595</td><td>Hello Kitchen</td><td>Hoofdkantoor</td></tr>
+            	<tr><td>9001</td><td>Keukendump</td><td>Kaatsheuvel</td></tr>
+            	<tr><td>9035</td><td>Keukendump</td><td>Tilburg</td></tr>
+            	<tr><td>9095</td><td>Keukendump Hoofdkantoor</td><td>Waalwijk</td></tr>
+            	<tr><td>0437</td><td>Keukenmaxx</td><td>Barendrecht</td></tr>
+            	<tr><td>0404</td><td>Keukenmaxx</td><td>Hoofddorp</td></tr>
+            	<tr><td>0495</td><td>Keukenmaxx</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>0440</td><td>Keukenmaxx</td><td>Projecten Waalwijk</td></tr>
+            	<tr><td>3145</td><td>Keukenontwerpers</td><td>Aanbeste Geel</td></tr>
+            	<tr><td>3101</td><td>Keukenontwerpers</td><td>Geel</td></tr>
+            	<tr><td>3102</td><td>Keukenontwerpers</td><td>Hasselt</td></tr>
+            	<tr><td>3107</td><td>Keukenontwerpers</td><td>Kortenbe</td></tr>
+            	<tr><td>3140</td><td>Keukenontwerpers</td><td>Projecte Geel</td></tr>
+            	<tr><td>3108</td><td>Keukenontwerpers</td><td>Schoten</td></tr>
+            	<tr><td>3105</td><td>Keukenontwerpers</td><td>Waterloo</td></tr>
+            	<tr><td>3103</td><td>Keukenontwerpers</td><td>Wilrijk</td></tr>
+            	<tr><td>3002</td><td>Küchen Direct</td><td>Alexandrium</td></tr>
+            	<tr><td>3030</td><td>Küchen Direct</td><td>Breda</td></tr>
+            	<tr><td>3008</td><td>Küchen Direct</td><td>Den Haag</td></tr>
+            	<tr><td>3027</td><td>Küchen Direct</td><td>Heerlen</td></tr>
+            	<tr><td>3095</td><td>Küchen Direct</td><td>Hoofdkantoo</td></tr>
+            	<tr><td>3040</td><td>Küchen Direct</td><td>Projecten</td></tr>
+            	<tr><td>3021</td><td>Küchen Direct</td><td>Son</td></tr>
+            	<tr><td>3020</td><td>Küchen Direct</td><td>Utrecht</td></tr>
+            	<tr><td>0114</td><td>Mandemakers</td><td>Amersfoort</td></tr>
+            	<tr><td>0136</td><td>Mandemakers</td><td>Amsterdam</td></tr>
+            	<tr><td>0137</td><td>Mandemakers</td><td>Barendrecht</td></tr>
+            	<tr><td>0141</td><td>Mandemakers</td><td>Beuningen</td></tr>
+            	<tr><td>0143</td><td>Mandemakers</td><td>Etten-Leur</td></tr>
+            	<tr><td>0116</td><td>Mandemakers</td><td>Groningen</td></tr>
+            	<tr><td>0195</td><td>Mandemakers</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>0101</td><td>Mandemakers</td><td>Kaatsheuvel</td></tr>
+            	<tr><td>0140</td><td>Mandemakers</td><td>Projecten Waalwijk</td></tr>
+            	<tr><td>0138</td><td>Mandemakers</td><td>Wateringen</td></tr>
+            	<tr><td>0152</td><td>Mandemakers</td><td>Woerden</td></tr>
+            	<tr><td>0111</td><td>Mandemakers</td><td>Zutphen</td></tr>
+            	<tr><td>0133</td><td>Mandemakers</td><td></td></tr>
+            	<tr><td>1498</td><td>Keukendump Nieuwenhuis</td><td>Assen</td></tr>
+            	<tr><td>1434</td><td>Nieuwenhuis</td><td>Assen</td></tr>
+            	<tr><td>1460</td><td>Nieuwenhuis</td><td>Deventer</td></tr>
+            	<tr><td>1416</td><td>Nieuwenhuis</td><td>Groningen</td></tr>
+            	<tr><td>1461</td><td>Nieuwenhuis</td><td>Heerenveen</td></tr>
+            	<tr><td>1495</td><td>Nieuwenhuis</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>1468</td><td>Nieuwenhuis</td><td>Meppel</td></tr>
+            	<tr><td>0596</td><td>Combi Orders PK K</td><td>Waalwijk</td></tr>
+            	<tr><td>0514</td><td>Piet Klerkx</td><td>Amersfoort</td></tr>
+            	<tr><td>0595</td><td>Piet Klerkx</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>0540</td><td>Piet Klerkx</td><td>Projecten Waalwijk</td></tr>
+            	<tr><td>0554</td><td>Piet Klerkx</td><td>Waalwijk</td></tr>
+            	<tr><td>4302</td><td>TKI</td><td>Alexandrium</td></tr>
+            	<tr><td>4395</td><td>TKI</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>4301</td><td>TKI</td><td>Kaatsheuvel</td></tr>
+            	<tr><td>4340</td><td>TKI</td><td>Kaatsheuvel</td></tr>
+            	<tr><td>4378</td><td>TKI</td><td>Naarden</td></tr>
+            	<tr><td>4398</td><td>TKI</td><td>Projecten Kaatsheuvel</td></tr>
+            	<tr><td>3814</td><td>Tulp Keukens</td><td>Amersfoort</td></tr>
+            	<tr><td>3836</td><td>Tulp Keukens</td><td>Amsterdam Arena</td></tr>
+            	<tr><td>3834</td><td>Tulp Keukens</td><td>Assen</td></tr>
+            	<tr><td>3830</td><td>Tulp Keukens</td><td>Breda</td></tr>
+            	<tr><td>3860</td><td>Tulp Keukens</td><td>Deventer</td></tr>
+            	<tr><td>3896</td><td>Tulp Keukens</td><td>Enschede</td></tr>
+            	<tr><td>3816</td><td>Tulp Keukens</td><td>Groningen</td></tr>
+            	<tr><td>3861</td><td>Tulp Keukens</td><td>Heerenveen</td></tr>
+            	<tr><td>3824</td><td>Tulp Keukens</td><td>Heerhugowaard</td></tr>
+            	<tr><td>3895</td><td>Tulp Keukens</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>3868</td><td>Tulp Keukens</td><td>Meppel</td></tr>
+            	<tr><td>3882</td><td>Tulp Keukens</td><td>Middelburg</td></tr>
+            	<tr><td>3840</td><td>Tulp Keukens</td><td>Projecten Waalwijk</td></tr>
+            	<tr><td>3812</td><td>Tulp Keukens</td><td>Rijssen</td></tr>
+            	<tr><td>3802</td><td>Tulp Keukens</td><td>Rotterdam</td></tr>
+            	<tr><td>3821</td><td>Tulp Keukens</td><td>Son en Breugel</td></tr>
+            	<tr><td>3899</td><td>Tulp Keukens</td><td>Spakenburg</td></tr>
+            	<tr><td>3817</td><td>Tulp Keukens</td><td>Spijkenisse</td></tr>
+            	<tr><td>3820</td><td>Tulp Keukens</td><td>Utrecht</td></tr>
+            	<tr><td>3872</td><td>Tulp Keukens</td><td>Veendam</td></tr>
+            	<tr><td>3813</td><td>Tulp Keukens</td><td>Veenendaal</td></tr>
+            	<tr><td>3854</td><td>Tulp Keukens</td><td>Waalwijk</td></tr>
+            	<tr><td>3853</td><td>Tulp Keukens</td><td>Wassenaar</td></tr>
+            	<tr><td>3852</td><td>Tulp Keukens</td><td>Woerden</td></tr>
+            	<tr><td>0603</td><td>Wooning</td><td>Numansdorp</td></tr>
+            	<tr><td>0608</td><td>Wooning</td><td>Den Haag</td></tr>
+            	<tr><td>0617</td><td>Wooning</td><td>Spijkenisse</td></tr>
+            	<tr><td>0640</td><td>Wooning</td><td>Projecten Waalwijk</td></tr>
+            	<tr><td>0645</td><td>Wooning</td><td>Bergschenhoek</td></tr>
+            	<tr><td>0646</td><td>Wooning</td><td>Vlaardingen</td></tr>
+            	<tr><td>0651</td><td>Wooning</td><td>Rotterdam</td></tr>
+            	<tr><td>0666</td><td>Wooning</td><td>Naaldwijk</td></tr>
+            	<tr><td>0695</td><td>Wooning</td><td>Hoofdkantoor Waalwijk</td></tr>
+            	<tr><td>0696</td><td>Combi Orders WO K</td><td>Waalwijk</td></tr>
+        	</tbody>
+      	</table>
+    </div>
 	</div>
-</header>
-  <div class="container pt-3">
-    <div class="row mb-3">
-      <div class="col-12">
-        <input type="text" id="zoekveld" class="form-control form-control-lg" placeholder="Zoek op code, formule of plaatsnaam...">
-      </div>
-    </div>
-    <div class="table-responsive">
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Code</th>
-            <th>Formule</th>
-            <th>Plaatsnaam</th>
-          </tr>
-        </thead>
-        <tbody>
-            <tr><td>0001</td><td>Brugman</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>0002</td><td>Brugman</td><td>Capelle ad IJssel</td></tr>
-            <tr><td>0004</td><td>Brugman</td><td>Hoofddorp</td></tr>
-            <tr><td>0005</td><td>Brugman</td><td>Nijmegen</td></tr>
-            <tr><td>0006</td><td>Brugman</td><td>Goes</td></tr>
-            <tr><td>0008</td><td>Brugman</td><td>Den Haag</td></tr>
-            <tr><td>0009</td><td>Brugman</td><td>Alkmaar</td></tr>
-            <tr><td>0010</td><td>Brugman</td><td>Den Bosch</td></tr>
-            <tr><td>0011</td><td>Brugman</td><td>Zutphen</td></tr>
-            <tr><td>0014</td><td>Brugman</td><td>Amersfoort</td></tr>
-            <tr><td>0015</td><td>Brugman</td><td>Beurs Waalwijk</td></tr>
-            <tr><td>0016</td><td>Brugman</td><td>Groningen</td></tr>
-            <tr><td>0018</td><td>Brugman</td><td>Zaandam</td></tr>
-            <tr><td>0020</td><td>Brugman</td><td>Utrecht</td></tr>
-            <tr><td>0021</td><td>Brugman</td><td>Son</td></tr>
-            <tr><td>0022</td><td>Brugman</td><td>Arnhem</td></tr>
-            <tr><td>0023</td><td>Brugman</td><td>Roosendaal</td></tr>
-            <tr><td>0025</td><td>Brugman</td><td>Zoeterwoude</td></tr>
-            <tr><td>0026</td><td>Brugman</td><td>Hulst</td></tr>
-            <tr><td>0027</td><td>Brugman</td><td>Heerlen</td></tr>
-            <tr><td>0028</td><td>Brugman</td><td>Leeuwarden</td></tr>
-            <tr><td>0029</td><td>Brugman</td><td>Hengelo OV</td></tr>
-            <tr><td>0030</td><td>Brugman</td><td>Breda</td></tr>
-            <tr><td>0031</td><td>Brugman</td><td>Almere</td></tr>
-            <tr><td>0032</td><td>Brugman</td><td>Roermond</td></tr>
-            <tr><td>0033</td><td>Brugman</td><td>Zwolle</td></tr>
-            <tr><td>0034</td><td>Brugman</td><td>Assen</td></tr>
-            <tr><td>0035</td><td>Brugman</td><td>Tilburg</td></tr>
-            <tr><td>0036</td><td>Brugman</td><td>Arena Amsterdam</td></tr>
-            <tr><td>0037</td><td>Brugman</td><td>Barendrecht</td></tr>
-            <tr><td>0038</td><td>Brugman</td><td>Wateringen</td></tr>
-            <tr><td>0039</td><td>ONBEKEND</td><td>Waalwijk</td></tr>
-            <tr><td>0040</td><td>Brugman</td><td>Projecten Waalwijk</td></tr>
-            <tr><td>0049</td><td>Brugman</td><td>Purmerend</td></tr>
-            <tr><td>0051</td><td>Brugman</td><td>Rotterdam</td></tr>
-            <tr><td>0057</td><td>Brugman</td><td>Curacao</td></tr>
-            <tr><td>0069</td><td>Brugman</td><td>Hilversum</td></tr>
-            <tr><td>0084</td><td>Brugman</td><td>Ede</td></tr>
-            <tr><td>0085</td><td>Brugman</td><td>Emmen</td></tr>
-            <tr><td>0091</td><td>Brugman</td><td>Venlo</td></tr>
-            <tr><td>0095</td><td>Brugman</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>0096</td><td>Combi Orders BM K</td><td>Waalwijk</td></tr>
-            <tr><td>0099</td><td>Brugman</td><td>Bonaire</td></tr>
-            <tr><td>0111</td><td>Mandemakers</td><td>Zutphen</td></tr>
-            <tr><td>0114</td><td>Mandemakers</td><td>Amersfoort</td></tr>
-            <tr><td>0116</td><td>Mandemakers</td><td>Groningen</td></tr>
-            <tr><td>0133</td><td>Mandemakers</td><td></td></tr>
-            <tr><td>0136</td><td>Mandemakers</td><td>Amsterdam</td></tr>
-            <tr><td>0137</td><td>Mandemakers</td><td>Barendrecht</td></tr>
-            <tr><td>0138</td><td>Mandemakers</td><td>Wateringen</td></tr>
-            <tr><td>0140</td><td>Mandemakers</td><td>Projecten Waalwijk</td></tr>
-            <tr><td>0141</td><td>Mandemakers</td><td>Beuningen</td></tr>
-            <tr><td>0152</td><td>Mandemakers</td><td>Woerden</td></tr>
-            <tr><td>0195</td><td>Mandemakers</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>0201</td><td>Keuken Kampioen</td><td>Kaatsheuvel</td></tr>
-            <tr><td>0202</td><td>Keuken Kampioen</td><td>Alexandrium Rotterdam</td></tr>
-            <tr><td>0205</td><td>Keuken Kampioen</td><td>Nijmegen</td></tr>
-            <tr><td>0206</td><td>Keuken Kampioen</td><td>Goes</td></tr>
-            <tr><td>0207</td><td>Keuken Kampioen</td><td>Dordrecht</td></tr>
-            <tr><td>0208</td><td>Keuken Kampioen</td><td>Den Haag</td></tr>
-            <tr><td>0210</td><td>Keuken Kampioen</td><td>Den Bosch</td></tr>
-            <tr><td>0214</td><td>Keuken Kampioen</td><td>Amersfoort</td></tr>
-            <tr><td>0215</td><td>Keuken Kampioen</td><td>Westpoort Amsterdam</td></tr>
-            <tr><td>0216</td><td>Keuken Kampioen</td><td>Groningen</td></tr>
-            <tr><td>0217</td><td>Keuken Kampioen</td><td>Spijkenisse</td></tr>
-            <tr><td>0218</td><td>Keuken Kampioen</td><td>Zaandam</td></tr>
-            <tr><td>0219</td><td>Beursfiliaal KK1</td><td>Waalwijk</td></tr>
-            <tr><td>0220</td><td>Keuken Kampioen</td><td>Utrecht</td></tr>
-            <tr><td>0221</td><td>Keuken Kampioen</td><td>Son en Breugel</td></tr>
-            <tr><td>0223</td><td>Keuken Kampioen</td><td>Roosendaal</td></tr>
-            <tr><td>0224</td><td>Keuken Kampioen</td><td>Heerhugowaard</td></tr>
-            <tr><td>0226</td><td>Keuken Kampioen</td><td>Hulst</td></tr>
-            <tr><td>0227</td><td>Keuken Kampioen</td><td>Heerlen</td></tr>
-            <tr><td>0228</td><td>Keuken Kampioen</td><td>Leeuwarden</td></tr>
-            <tr><td>0230</td><td>Keuken Kampioen</td><td>Breda</td></tr>
-            <tr><td>0231</td><td>Keuken Kampioen</td><td>Almere</td></tr>
-            <tr><td>0233</td><td>Keuken Kampioen</td><td>Zwolle</td></tr>
-            <tr><td>0236</td><td>Keuken Kampioen</td><td>Arena Amsterdam Zuidoost</td></tr>
-            <tr><td>0239</td><td>Keuken Kampioen</td><td>Reeuwijk</td></tr>
-            <tr><td>0240</td><td>Keuken Kampioen</td><td>Projecten Waalwijk</td></tr>
-            <tr><td>0242</td><td>Keuken Kampioen</td><td>Hoorn Zwaag</td></tr>
-            <tr><td>0244</td><td>Keuken Kampioen</td><td>Amstelveen</td></tr>
-            <tr><td>0247</td><td>Keuken Kampioen</td><td>Bergen op Zoom</td></tr>
-            <tr><td>0248</td><td>Keuken Kampioen</td><td>Mijdrecht</td></tr>
-            <tr><td>0249</td><td>Keuken Kampioen</td><td>Purmerend</td></tr>
-            <tr><td>0250</td><td>Keuken Kampioen</td><td>Delft</td></tr>
-            <tr><td>0251</td><td>Keuken Kampioen</td><td>Rotterdam</td></tr>
-            <tr><td>0252</td><td>Keuken Kampioen</td><td>Woerden</td></tr>
-            <tr><td>0255</td><td>Keuken Kampioen</td><td>Drachten</td></tr>
-            <tr><td>0258</td><td>Keuken Kampioen</td><td>Beverwijk</td></tr>
-            <tr><td>0264</td><td>Keuken Kampioen</td><td>Houten</td></tr>
-            <tr><td>0267</td><td>Keuken Kampioen</td><td>Helmond</td></tr>
-            <tr><td>0273</td><td>Keuken Kampioen</td><td>Lelystad</td></tr>
-            <tr><td>0275</td><td>Keuken Kampioen</td><td>Weert</td></tr>
-            <tr><td>0276</td><td>Keuken Kampioen</td><td>Cruquius</td></tr>
-            <tr><td>0280</td><td>Keuken Kampioen</td><td>Tiel</td></tr>
-            <tr><td>0282</td><td>Keuken Kampioen</td><td>Middelburg</td></tr>
-            <tr><td>0284</td><td>Keuken Kampioen</td><td>Ede</td></tr>
-            <tr><td>0285</td><td>Keuken Kampioen</td><td>Emmen</td></tr>
-            <tr><td>0286</td><td>Keuken Kampioen</td><td>Alphen a/d Rijn</td></tr>
-            <tr><td>0290</td><td>Keuken Kampioen</td><td>Amsterdam ZO</td></tr>
-            <tr><td>0292</td><td>Apparatenkampioen</td><td>Waalwijk</td></tr>
-            <tr><td>0293</td><td>Keuken Kampioen</td><td>Sneek</td></tr>
-            <tr><td>0294</td><td>Keuken Kampioen</td><td>Duiven</td></tr>
-            <tr><td>0295</td><td>Keuken Kampioen</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>0296</td><td>Keuken Kampioen</td><td>Enschede</td></tr>
-            <tr><td>0297</td><td>Keuken Kampioen</td><td>Almelo</td></tr>
-            <tr><td>0301</td><td>Keuken Concurrent</td><td>Kaatsheuvel</td></tr>
-            <tr><td>0308</td><td>Keuken Concurrent</td><td>Den Haag 's-Gravenhage</td></tr>
-            <tr><td>0309</td><td>Keuken Concurrent</td><td>Alkmaar</td></tr>
-            <tr><td>0310</td><td>Keuken Concurrent</td><td>Den Bosch 's-Hertogenbosch</td></tr>
-            <tr><td>0313</td><td>Keuken Concurrent</td><td>Veenendaal</td></tr>
-            <tr><td>0314</td><td>Keuken Concurrent</td><td>Amersfoort</td></tr>
-            <tr><td>0315</td><td>Keuken Concurrent</td><td>Westpoort Amsterdam</td></tr>
-            <tr><td>0316</td><td>Keuken Concurrent</td><td>Groningen</td></tr>
-            <tr><td>0317</td><td>Keuken Concurrent</td><td>Spijkenisse</td></tr>
-            <tr><td>0318</td><td>Keuken Concurrent</td><td>Zaandam</td></tr>
-            <tr><td>0320</td><td>Keuken Concurrent</td><td>Utrecht</td></tr>
-            <tr><td>0321</td><td>Keuken Concurrent</td><td>Son en Breugel</td></tr>
-            <tr><td>0322</td><td>Keuken Concurrent</td><td>Arnhem</td></tr>
-            <tr><td>0323</td><td>Keuken Concurrent</td><td>Roosendaal</td></tr>
-            <tr><td>0326</td><td>Keuken Concurrent</td><td>Hulst</td></tr>
-            <tr><td>0327</td><td>Keuken Concurrent</td><td>Heerlen</td></tr>
-            <tr><td>0328</td><td>Keuken Concurrent</td><td>Leeuwarden</td></tr>
-            <tr><td>0329</td><td>Keuken Concurrent</td><td>Hengelo OV</td></tr>
-            <tr><td>0330</td><td>Keuken Concurrent</td><td>Breda</td></tr>
-            <tr><td>0331</td><td>Keuken Concurrent</td><td>Almere</td></tr>
-            <tr><td>0333</td><td>Keuken Concurrent</td><td>Zwolle</td></tr>
-            <tr><td>0336</td><td>Keuken Concurrent</td><td>Arena Amsterdam Zuidoost</td></tr>
-            <tr><td>0337</td><td>Keuken Concurrent</td><td>Barendrecht</td></tr>
-            <tr><td>0338</td><td>Keuken Concurrent</td><td>Wateringen</td></tr>
-            <tr><td>0340</td><td>Keuken Concurrent</td><td>Projecten Waalwijk</td></tr>
-            <tr><td>0341</td><td>Keuken Concurrent</td><td>Beuningen</td></tr>
-            <tr><td>0342</td><td>Keuken Concurrent</td><td>Hoorn Zwaag</td></tr>
-            <tr><td>0344</td><td>Keuken Concurrent</td><td>Amstelveen</td></tr>
-            <tr><td>0349</td><td>Keuken Concurrent</td><td>Purmerend</td></tr>
-            <tr><td>0351</td><td>Keuken Concurrent</td><td>Rotterdam</td></tr>
-            <tr><td>0352</td><td>Keuken Concurrent</td><td>Woerden</td></tr>
-            <tr><td>0358</td><td>Keuken Concurrent</td><td>Beverwijk</td></tr>
-            <tr><td>0360</td><td>Keuken Concurrent</td><td>Deventer</td></tr>
-            <tr><td>0361</td><td>Keuken Concurrent</td><td>Heerenveen</td></tr>
-            <tr><td>0363</td><td>Keuken Concurrent</td><td>Oss</td></tr>
-            <tr><td>0364</td><td>Keuken Concurrent</td><td>Houten</td></tr>
-            <tr><td>0365</td><td>Keuken Concurrent</td><td>Doetinchem</td></tr>
-            <tr><td>0367</td><td>Keuken Concurrent</td><td>Helmond</td></tr>
-            <tr><td>0373</td><td>Keuken Concurrent</td><td>Lelystad</td></tr>
-            <tr><td>0376</td><td>Keuken Concurrent</td><td>Cruquius</td></tr>
-            <tr><td>0377</td><td>Keuken Concurrent</td><td>Zoetermeer</td></tr>
-            <tr><td>0381</td><td>Keuken Concurrent</td><td>Leiderdorp</td></tr>
-            <tr><td>0383</td><td>Keuken Concurrent</td><td>Hoogeveen</td></tr>
-            <tr><td>0385</td><td>Keuken Concurrent</td><td>Emmen</td></tr>
-            <tr><td>0387</td><td>Keuken Concurrent</td><td>Sliedrecht</td></tr>
-            <tr><td>0388</td><td>Keuken Concurrent</td><td>Gouda</td></tr>
-            <tr><td>0389</td><td>Keuken Concurrent</td><td>Apeldoorn</td></tr>
-            <tr><td>0391</td><td>Keuken Concurrent</td><td>Venlo</td></tr>
-            <tr><td>0392</td><td>Keuken Concurrent</td><td>Webwinkel Waalwijk</td></tr>
-            <tr><td>0394</td><td>Keuken Concurrent</td><td>Duiven</td></tr>
-            <tr><td>0395</td><td>Keuken Concurrent</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>0398</td><td>Keuken</td><td></td></tr>
-            <tr><td>0404</td><td>Keukenmaxx</td><td>Hoofddorp</td></tr>
-            <tr><td>0437</td><td>Keukenmaxx</td><td>Barendrecht</td></tr>
-            <tr><td>0440</td><td>Keukenmaxx</td><td>Projecten Waalwijk</td></tr>
-            <tr><td>0443</td><td>Keukenmaxx</td><td>Etten-Leur</td></tr>
-            <tr><td>0495</td><td>Keukenmaxx</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>0596</td><td>Combi Orders PK K</td><td>Waalwijk</td></tr>
-            <tr><td>0603</td><td>Wooning</td><td>Numansdorp</td></tr>
-            <tr><td>1301</td><td>Keukendump</td><td>Kaatsheuvel Vr</td></tr>
-            <tr><td>1335</td><td>Keukendump</td><td>Tilburg Vrrd</td></tr>
-            <tr><td>1416</td><td>Nieuwenhuis</td><td>Groningen</td></tr>
-            <tr><td>1434</td><td>Nieuwenhuis</td><td>Assen</td></tr>
-            <tr><td>1460</td><td>Nieuwenhuis</td><td>Deventer</td></tr>
-            <tr><td>1461</td><td>Nieuwenhuis</td><td>Heerenveen</td></tr>
-            <tr><td>1468</td><td>Nieuwenhuis</td><td>Meppel</td></tr>
-            <tr><td>1495</td><td>Nieuwenhuis</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>1498</td><td>Keukendump Nieuwenhuis</td><td>Assen</td></tr>
-            <tr><td>2330</td><td>CVT</td><td>Breda</td></tr>
-            <tr><td>2335</td><td>CVT</td><td>Tilburg</td></tr>
-            <tr><td>2340</td><td>CVT</td><td>Projecten</td></tr>
-            <tr><td>2395</td><td>CVT</td><td>Hoofdkantoor</td></tr>
-            <tr><td>3002</td><td>Küchen Direct</td><td>Alexandrium</td></tr>
-            <tr><td>3008</td><td>Küchen Direct</td><td>Den Haag</td></tr>
-            <tr><td>3020</td><td>Küchen Direct</td><td>Utrecht</td></tr>
-            <tr><td>3021</td><td>Küchen Direct</td><td>Son</td></tr>
-            <tr><td>3027</td><td>Küchen Direct</td><td>Heerlen</td></tr>
-            <tr><td>3030</td><td>Küchen Direct</td><td>Breda</td></tr>
-            <tr><td>3040</td><td>Küchen Direct</td><td>Projecten</td></tr>
-            <tr><td>3095</td><td>Küchen Direct</td><td>Hoofdkantoo</td></tr>
-            <tr><td>3101</td><td>Keukenontwerpers</td><td>Geel</td></tr>
-            <tr><td>3102</td><td>Keukenontwerpers</td><td>Hasselt</td></tr>
-            <tr><td>3103</td><td>Keukenontwerpers</td><td>Wilrijk</td></tr>
-            <tr><td>3105</td><td>Keukenontwerpers</td><td>Waterloo</td></tr>
-            <tr><td>3107</td><td>Keukenontwerpers</td><td>Kortenbe</td></tr>
-            <tr><td>3108</td><td>Keukenontwerpers</td><td>Schoten</td></tr>
-            <tr><td>3140</td><td>Keukenontwerpers</td><td>Projecte Geel</td></tr>
-            <tr><td>3145</td><td>Keukenontwerpers</td><td>Aanbeste Geel</td></tr>
-            <tr><td>4302</td><td>TKI</td><td>Alexandrium</td></tr>
-            <tr><td>4495</td><td>Piet Boon Hoofdkantoor</td><td>Waalwijk</td></tr>
-            <tr><td>4502</td><td>Hello Kitchen</td><td>Alexandrium</td></tr>
-            <tr><td>4508</td><td>Hello Kitchen</td><td>Den Haag</td></tr>
-            <tr><td>4520</td><td>Hello Kitchen</td><td>Utrecht</td></tr>
-            <tr><td>4521</td><td>Hello Kitchen</td><td>Son</td></tr>
-            <tr><td>4527</td><td>Hello Kitchen</td><td>Heerlen</td></tr>
-            <tr><td>4530</td><td>Hello Kitchen</td><td>Breda</td></tr>
-            <tr><td>4536</td><td>Hello Kitchen</td><td>Adam Arena</td></tr>
-            <tr><td>4594</td><td>Hello Kitchen</td><td>Duiven</td></tr>
-            <tr><td>4595</td><td>Hello Kitchen</td><td>Hoofdkantoor</td></tr>
-            <tr><td>9001</td><td>Keukendump</td><td>Kaatsheuvel</td></tr>
-            <tr><td>9035</td><td>Keukendump</td><td>Tilburg</td></tr>
-            <tr><td>9095</td><td>Keukendump Hoofdkantoor</td><td>Waalwijk</td></tr>
-            <tr><td>0437</td><td>Keukenmaxx</td><td>Barendrecht</td></tr>
-            <tr><td>0404</td><td>Keukenmaxx</td><td>Hoofddorp</td></tr>
-            <tr><td>0495</td><td>Keukenmaxx</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>0440</td><td>Keukenmaxx</td><td>Projecten Waalwijk</td></tr>
-            <tr><td>3145</td><td>Keukenontwerpers</td><td>Aanbeste Geel</td></tr>
-            <tr><td>3101</td><td>Keukenontwerpers</td><td>Geel</td></tr>
-            <tr><td>3102</td><td>Keukenontwerpers</td><td>Hasselt</td></tr>
-            <tr><td>3107</td><td>Keukenontwerpers</td><td>Kortenbe</td></tr>
-            <tr><td>3140</td><td>Keukenontwerpers</td><td>Projecte Geel</td></tr>
-            <tr><td>3108</td><td>Keukenontwerpers</td><td>Schoten</td></tr>
-            <tr><td>3105</td><td>Keukenontwerpers</td><td>Waterloo</td></tr>
-            <tr><td>3103</td><td>Keukenontwerpers</td><td>Wilrijk</td></tr>
-            <tr><td>3002</td><td>Küchen Direct</td><td>Alexandrium</td></tr>
-            <tr><td>3030</td><td>Küchen Direct</td><td>Breda</td></tr>
-            <tr><td>3008</td><td>Küchen Direct</td><td>Den Haag</td></tr>
-            <tr><td>3027</td><td>Küchen Direct</td><td>Heerlen</td></tr>
-            <tr><td>3095</td><td>Küchen Direct</td><td>Hoofdkantoo</td></tr>
-            <tr><td>3040</td><td>Küchen Direct</td><td>Projecten</td></tr>
-            <tr><td>3021</td><td>Küchen Direct</td><td>Son</td></tr>
-            <tr><td>3020</td><td>Küchen Direct</td><td>Utrecht</td></tr>
-            <tr><td>0114</td><td>Mandemakers</td><td>Amersfoort</td></tr>
-            <tr><td>0136</td><td>Mandemakers</td><td>Amsterdam</td></tr>
-            <tr><td>0137</td><td>Mandemakers</td><td>Barendrecht</td></tr>
-            <tr><td>0141</td><td>Mandemakers</td><td>Beuningen</td></tr>
-            <tr><td>0143</td><td>Mandemakers</td><td>Etten-Leur</td></tr>
-            <tr><td>0116</td><td>Mandemakers</td><td>Groningen</td></tr>
-            <tr><td>0195</td><td>Mandemakers</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>0101</td><td>Mandemakers</td><td>Kaatsheuvel</td></tr>
-            <tr><td>0140</td><td>Mandemakers</td><td>Projecten Waalwijk</td></tr>
-            <tr><td>0138</td><td>Mandemakers</td><td>Wateringen</td></tr>
-            <tr><td>0152</td><td>Mandemakers</td><td>Woerden</td></tr>
-            <tr><td>0111</td><td>Mandemakers</td><td>Zutphen</td></tr>
-            <tr><td>0133</td><td>Mandemakers</td><td></td></tr>
-            <tr><td>1498</td><td>Keukendump Nieuwenhuis</td><td>Assen</td></tr>
-            <tr><td>1434</td><td>Nieuwenhuis</td><td>Assen</td></tr>
-            <tr><td>1460</td><td>Nieuwenhuis</td><td>Deventer</td></tr>
-            <tr><td>1416</td><td>Nieuwenhuis</td><td>Groningen</td></tr>
-            <tr><td>1461</td><td>Nieuwenhuis</td><td>Heerenveen</td></tr>
-            <tr><td>1495</td><td>Nieuwenhuis</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>1468</td><td>Nieuwenhuis</td><td>Meppel</td></tr>
-            <tr><td>0596</td><td>Combi Orders PK K</td><td>Waalwijk</td></tr>
-            <tr><td>0514</td><td>Piet Klerkx</td><td>Amersfoort</td></tr>
-            <tr><td>0595</td><td>Piet Klerkx</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>0540</td><td>Piet Klerkx</td><td>Projecten Waalwijk</td></tr>
-            <tr><td>0554</td><td>Piet Klerkx</td><td>Waalwijk</td></tr>
-            <tr><td>4302</td><td>TKI</td><td>Alexandrium</td></tr>
-            <tr><td>4395</td><td>TKI</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>4301</td><td>TKI</td><td>Kaatsheuvel</td></tr>
-            <tr><td>4340</td><td>TKI</td><td>Kaatsheuvel</td></tr>
-            <tr><td>4378</td><td>TKI</td><td>Naarden</td></tr>
-            <tr><td>4398</td><td>TKI</td><td>Projecten Kaatsheuvel</td></tr>
-            <tr><td>3814</td><td>Tulp Keukens</td><td>Amersfoort</td></tr>
-            <tr><td>3836</td><td>Tulp Keukens</td><td>Amsterdam Arena</td></tr>
-            <tr><td>3834</td><td>Tulp Keukens</td><td>Assen</td></tr>
-            <tr><td>3830</td><td>Tulp Keukens</td><td>Breda</td></tr>
-            <tr><td>3860</td><td>Tulp Keukens</td><td>Deventer</td></tr>
-            <tr><td>3896</td><td>Tulp Keukens</td><td>Enschede</td></tr>
-            <tr><td>3816</td><td>Tulp Keukens</td><td>Groningen</td></tr>
-            <tr><td>3861</td><td>Tulp Keukens</td><td>Heerenveen</td></tr>
-            <tr><td>3824</td><td>Tulp Keukens</td><td>Heerhugowaard</td></tr>
-            <tr><td>3895</td><td>Tulp Keukens</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>3868</td><td>Tulp Keukens</td><td>Meppel</td></tr>
-            <tr><td>3882</td><td>Tulp Keukens</td><td>Middelburg</td></tr>
-            <tr><td>3840</td><td>Tulp Keukens</td><td>Projecten Waalwijk</td></tr>
-            <tr><td>3812</td><td>Tulp Keukens</td><td>Rijssen</td></tr>
-            <tr><td>3802</td><td>Tulp Keukens</td><td>Rotterdam</td></tr>
-            <tr><td>3821</td><td>Tulp Keukens</td><td>Son en Breugel</td></tr>
-            <tr><td>3899</td><td>Tulp Keukens</td><td>Spakenburg</td></tr>
-            <tr><td>3817</td><td>Tulp Keukens</td><td>Spijkenisse</td></tr>
-            <tr><td>3820</td><td>Tulp Keukens</td><td>Utrecht</td></tr>
-            <tr><td>3872</td><td>Tulp Keukens</td><td>Veendam</td></tr>
-            <tr><td>3813</td><td>Tulp Keukens</td><td>Veenendaal</td></tr>
-            <tr><td>3854</td><td>Tulp Keukens</td><td>Waalwijk</td></tr>
-            <tr><td>3853</td><td>Tulp Keukens</td><td>Wassenaar</td></tr>
-            <tr><td>3852</td><td>Tulp Keukens</td><td>Woerden</td></tr>
-            <tr><td>0603</td><td>Wooning</td><td>Numansdorp</td></tr>
-            <tr><td>0608</td><td>Wooning</td><td>Den Haag</td></tr>
-            <tr><td>0617</td><td>Wooning</td><td>Spijkenisse</td></tr>
-            <tr><td>0640</td><td>Wooning</td><td>Projecten Waalwijk</td></tr>
-            <tr><td>0645</td><td>Wooning</td><td>Bergschenhoek</td></tr>
-            <tr><td>0646</td><td>Wooning</td><td>Vlaardingen</td></tr>
-            <tr><td>0651</td><td>Wooning</td><td>Rotterdam</td></tr>
-            <tr><td>0666</td><td>Wooning</td><td>Naaldwijk</td></tr>
-            <tr><td>0695</td><td>Wooning</td><td>Hoofdkantoor Waalwijk</td></tr>
-            <tr><td>0696</td><td>Combi Orders WO K</td><td>Waalwijk</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  <!-- Bootstrap 5 JS bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap 5 JS bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
@@ -345,7 +344,7 @@ if ('serviceWorker' in navigator) {
     .catch(err => console.warn('SW registration failed', err));
 }
 </script>
-  <script>
+<script>
     document.getElementById('zoekveld').addEventListener('input', function() {
       const zoekterm = this.value.toLowerCase();
       const rows = document.querySelectorAll('tbody tr');
@@ -354,6 +353,6 @@ if ('serviceWorker' in navigator) {
         row.style.display = tekst.includes(zoekterm) ? '' : 'none';
       });
     });
-  </script>
+</script>
 </body>
 </html>

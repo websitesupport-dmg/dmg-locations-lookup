@@ -4,7 +4,6 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  overflow-y: hidden;
 }
 
 header {
@@ -20,4 +19,23 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   font-weight: 700;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #075679;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #043449;
 }/*# sourceMappingURL=style.css.map */
