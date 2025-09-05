@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body {
-    font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
 header{
     background-color: #043449;
@@ -15,23 +15,20 @@ h1 {
     font-weight: 800;
 }
 h2,h3,h4,h5,h6 {
-  font-weight: 700;
+	font-weight: 700;
 }
 ::-webkit-scrollbar {
-  width: 10px;
+	width: 10px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #fff; 
+	background: #fff; 
 }
- 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #075679; 
+	background: #075679; 
 }
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #043449; 
+	background: #043449; 
 }
