@@ -6,12 +6,12 @@
   "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#ffffff",
+  "background_color": "#043449",
   "theme_color": "#043449",
   "lang": "nl-NL",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "icons/icon-515.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
