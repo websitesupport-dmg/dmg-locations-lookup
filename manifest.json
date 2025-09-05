@@ -1,0 +1,21 @@
+{
+  "name": "DMG Locaties",
+  "short_name": "DMG Stores",
+  "description": "A lightweight standalone web app — saved as a PWA on Windows.",
+  "start_url": "/?utm_source=homescreen",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#043449",
+  "lang": "nl-NL",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "prefer_related_applications": false
+}
